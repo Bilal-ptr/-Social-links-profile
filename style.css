@@ -1,0 +1,104 @@
+
+      @font-face {
+  font-family: 'Inter Variable';
+  src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+    body {
+  font-family: 'Inter Variable', sans-serif;
+  font-weight: 400;
+  background-color: #000;
+}
+
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(229, 7%, 56%);
+        background: #000;
+      }
+
+      .outer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+       max-width: 100%;
+       min-height: 100vh;
+        height: 150vh;
+        gap: 10px;
+        color: #ffff;
+      }
+      .inner-container {
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        align-items: center;
+        width: 300px;
+        text-align: center;
+        border-radius: 10px;
+        background-color: rgba(46, 47, 47, 0.874);
+        gap: 10px;
+      }
+      .inner-container img {
+        width: 50%;
+        max-width: 100%;
+        border-radius: 100%;
+      }
+      h1,
+      h2,
+      p {
+        color: #ffff;
+        font-size: 12px;
+      }
+      .inner-container a {
+        color: #fff;
+        background-color: rgba(112, 114, 116, 0.842);
+        border-radius: 8px;
+        text-decoration: none;
+        width: 100%;
+        padding: 10px 20px;
+      }
+      .inner-container a:hover {
+        background-color: #5ebd1f;
+      }
+
+      .profile {
+        line-height: 10px;
+      }
+      .profile h1 {
+        font-size: 25px;
+        font-weight: 600;
+      }
+      .profile h2 {
+        font-size: 13px;
+
+        color: rgb(141, 200, 3);
+      }
+      a {
+        text-decoration: none;
+      }
+
+      @media (max-width: 768px) {
+        .inner-container {
+          width: 200px;
+          
+        }
+        .profile {
+        line-height: normal;
+      }
+      .profile h1 {
+        font-size: 20px;
+
+      }
+       p {
+        font-size: 8px;
+      }
+      a{
+        font-size: small;
+      }
+    }
